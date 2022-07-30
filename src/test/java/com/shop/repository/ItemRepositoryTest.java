@@ -148,7 +148,7 @@ class ItemRepositoryTest {
     }
 
     @Test
-    @DisplayName("Querydsl Test")
+    @DisplayName("Querydsl Test 1")
     public void queryDslTest() {
         this.createItemList();
         JPAQueryFactory queryFactory = new JPAQueryFactory(em);
